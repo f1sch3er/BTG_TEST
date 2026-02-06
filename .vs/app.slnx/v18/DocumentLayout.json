@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\fisch\\source\\repos\\app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76AD8D41-5323-4902-8DF1-01800100E794}|app\\app.csproj|c:\\users\\fisch\\source\\repos\\app\\app\\.gitignore||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76AD8D41-5323-4902-8DF1-01800100E794}|app\\app.csproj|solutionrelative:app\\.gitignore||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76AD8D41-5323-4902-8DF1-01800100E794}|app\\app.csproj|c:\\users\\fisch\\source\\repos\\app\\app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76AD8D41-5323-4902-8DF1-01800100E794}|app\\app.csproj|solutionrelative:app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|app\\app.csproj|c:\\users\\fisch\\source\\repos\\app\\app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C0F928A-B28D-D207-D239-598F22CCD0B7}|app\\app.csproj|solutionrelative:app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -103,25 +99,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\fisch\\source\\repos\\app\\app\\.gitignore",
-              "RelativeDocumentMoniker": "app\\.gitignore",
-              "ToolTip": "C:\\Users\\fisch\\source\\repos\\app\\app\\.gitignore",
-              "RelativeToolTip": "app\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-06T22:56:25.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\fisch\\source\\repos\\app\\app\\Program.cs",
               "RelativeDocumentMoniker": "app\\Program.cs",
               "ToolTip": "C:\\Users\\fisch\\source\\repos\\app\\app\\Program.cs",
               "RelativeToolTip": "app\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAADUAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAEgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T21:44:23.809Z",
               "EditorCaption": ""

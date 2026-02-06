@@ -34,7 +34,7 @@ bool CheckPar(string value)
 
         if (position != '(' && position != ')' && position != '[' && position != ']' && position != '{' && position != '}')
         {
-            Console.WriteLine("A string não contém nenhum valor válido");
+            //Console.WriteLine("A string não contém nenhum valor válido");
             return false;
         }
 
@@ -42,10 +42,29 @@ bool CheckPar(string value)
         {
             output.Add(position);
         }
+
+        if (position != ')' || position != ']' || position != '}')
+        {
+            //Console.WriteLine(position);
+            //Console.WriteLine(value[i]); 
+            if(output.Count <= 0)
+            {
+                //Console.WriteLine(output);
+                return false;
+            }
+
+            char last_value = output[output.Count - 1];
+            output.RemoveAt(output.Count - 1);
+
+            if (position == ')' && last_value != '(') return false;
+            if (position == ']' && last_value != '[') return false;
+            if (position == '}' && last_value != '{') return false;
+
+
+        }
+
     }
-
-    return value.Length == 0;
-
+    return true;
 }
 
 
