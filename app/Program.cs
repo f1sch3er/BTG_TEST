@@ -20,19 +20,17 @@ bool CheckPar(string value)
 {
     List<char> output = new List<char>();
 
-    // evitar de ter que validar possíveis valores diferentes do objetivo
-    foreach (char c in value)
-    {
-        if (!"()[]{}".Contains(c))
-            break;
-    }
+    // remoção de foreach redundante
+    
 
     for (int i = 0; i < value.Length; i++)
     {
         char position = value[i];
         Console.WriteLine(position);
 
-        if (position != '(' && position != ')' && position != '[' && position != ']' && position != '{' && position != '}')
+        if (position != '(' && position != ')' && 
+            position != '[' && position != ']' && 
+            position != '{' && position != '}')
         {
             //Console.WriteLine("A string não contém nenhum valor válido");
             return false;
@@ -41,15 +39,13 @@ bool CheckPar(string value)
         if (position == '(' || position == '[' || position == '{')
         {
             output.Add(position);
+            //adicionado ao array as primeiras partes
         }
-
-        if (position != ')' || position != ']' || position != '}')
+        else
         {
-            //Console.WriteLine(position);
-            //Console.WriteLine(value[i]); 
+            // se nada for adicionado, e porque a string veio com caractere errado
             if(output.Count <= 0)
             {
-                //Console.WriteLine(output);
                 return false;
             }
 
@@ -59,12 +55,9 @@ bool CheckPar(string value)
             if (position == ')' && last_value != '(') return false;
             if (position == ']' && last_value != '[') return false;
             if (position == '}' && last_value != '{') return false;
-
-
         }
-
     }
-    return true;
+    return output.Count == 0;
 }
 
 
